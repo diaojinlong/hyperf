@@ -34,3 +34,30 @@ $ php bin/hyperf.php start
 This will start the cli-server on port `9501`, and bind it to all network interfaces. You can then visit the site at `http://localhost:9501/`
 
 which will bring up Hyperf default home page.
+
+#克隆项目
+git clone https://github.com/diaojinlong/hyperf.git
+
+#安装包
+composer install
+
+#复制配置文件修改mysql及redis配置
+复制.env.example => .env
+
+#运行数据迁移及数据填充
+php bin/hyperf.php migrate
+
+php bin/hyperf.php db:seed
+
+#启动hyperf
+php bin/hyperf.php start
+
+或
+
+php bin/hyperf.php server:watch
+
+#POST请求登录接口
+http://127.0.0.1:9501/user/login
+
+{"tel":"13800138000","pwd":"123456"}
+
