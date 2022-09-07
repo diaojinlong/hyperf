@@ -29,6 +29,7 @@ return [
     'alpha_dash' => 'The :attribute may only contain letters, numbers, and dashes.',
     'alpha_num' => 'The :attribute may only contain letters and numbers.',
     'array' => 'The :attribute must be an array.',
+    'array_key_exists' => 'The :attribute must be an array, or the following: :keys parameter is missing from the :attribute.',
     'before' => 'The :attribute must be a date before :date.',
     'before_or_equal' => 'The :attribute must be a date before or equal to :date.',
     'between' => [

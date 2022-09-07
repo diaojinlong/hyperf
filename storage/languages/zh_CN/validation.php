@@ -29,6 +29,7 @@ return [
     'alpha_dash' => ':attribute 只能包含字母、数字、中划线或下划线',
     'alpha_num' => ':attribute 只能包含字母和数字',
     'array' => ':attribute 必须是一个数组',
+    'array_key_exists' => ':attribute 必须是一个数组，或者 :attribute 中缺少以下： :keys 参数',
     'before' => ':attribute 必须是 :date 之前的一个日期',
     'before_or_equal' => ':attribute 必须是 :date 之前或相同的一个日期',
     'between' => [
